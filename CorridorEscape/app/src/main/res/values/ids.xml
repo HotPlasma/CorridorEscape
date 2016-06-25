@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="name1" type="id" />
+    <item name="name2" type="id" />
+    <item name="name3" type="id" />
+    <item name="score1" type="id" />
+    <item name="score2" type="id" />
+    <item name="score3" type="id" />
+    <item name="NewName" type="id" />
+    <item name="NewScore" type="id" />
+    <item name="Button" type="id" />
+</resources>

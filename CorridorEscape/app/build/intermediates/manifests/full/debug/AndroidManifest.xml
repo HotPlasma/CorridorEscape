@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dmu.p14148686.corridorescape"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cat"
+        android:label="@string/app_name"
+        android:theme="@style/FullscreenTheme" >
+        <activity
+            android:name="com.dmu.p14148686.corridorescape.Controller.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dmu.p14148686.corridorescape.Controller.MenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dmu.p14148686.corridorescape.Controller.GameActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dmu.p14148686.corridorescape.Controller.LeaderboardActivity"
+            android:label="@string/title_activity_leaderboard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dmu.p14148686.corridorescape.Controller.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dmu.p14148686.corridorescape.Controller.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+    </application>
+
+</manifest>
